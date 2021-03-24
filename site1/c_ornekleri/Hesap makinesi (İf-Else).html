@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>hesap makinesi (if-else)</title>
+</head>
+
+<body>
+<h2>Hesap makinesi (İf-Else)</h2>
+<br />
+#include &lt;stdio.h&gt;<br />
+#include &lt;stdlib.h&gt;<br />
+<br />
+int main()<br />
+{<br />
+  int sayi_1,sayi_2;<br />
+  float sonuc;<br />
+  char secim;<br />
+    printf(&quot;TOPLAMA İSLEMİ İCİN= +\n&quot;);<br />
+    printf(&quot;ÇIKARMA İSLEMİ İCİN= -\n&quot;);<br />
+      printf(&quot;ÇARPMA İSLEMİ İCİN= *\n&quot;);<br />
+        printf(&quot;BÖLME İSLEMİ İCİN= /\n&quot;);<br />
+        printf(&quot;OPARATÖR SECİNİZ=&quot;);<br />
+        scanf(&quot; %c&quot;,&amp;secim);<br />
+        if (secim=='+')<br />
+        {<br />
+            printf(&quot;1,sayiyi giriniz=&quot;);<br />
+            scanf(&quot;%d&quot;,&amp;sayi_1);<br />
+             printf(&quot;2,sayiyi giriniz=&quot;);<br />
+            scanf(&quot;%d&quot;,&amp;sayi_2);<br />
+            sonuc=sayi_1+sayi_2;<br />
+            printf(&quot;islemin sonuc=%.2f&quot;,sonuc);<br />
+<br />
+        }<br />
+        else if (secim=='+')<br />
+        {<br />
+           printf(&quot;1,sayiyi giriniz=&quot;);<br />
+            scanf(&quot;%d&quot;,&amp;sayi_1);<br />
+             printf(&quot;2,sayiyi giriniz=&quot;);<br />
+            scanf(&quot;%d&quot;,&amp;sayi_2);<br />
+            sonuc=sayi_1-sayi_2;<br />
+            printf(&quot;islemin sonuc=%.2f&quot;,sonuc);<br />
+<br />
+        }<br />
+<br />
+        else if (secim=='*')<br />
+        {<br />
+           printf(&quot;1,sayiyi giriniz=&quot;);<br />
+            scanf(&quot;%d&quot;,&amp;sayi_1);<br />
+             printf(&quot;2,sayiyi giriniz=&quot;);<br />
+            scanf(&quot;%d&quot;,&amp;sayi_2);<br />
+            sonuc=sayi_1*sayi_2;<br />
+            printf(&quot;islemin sonuc=%.2f&quot;,sonuc);<br />
+<br />
+        }<br />
+<br />
+        else if (secim=='/')<br />
+        {<br />
+           printf(&quot;1,sayiyi giriniz=&quot;);<br />
+            scanf(&quot;%d&quot;,&amp;sayi_1);<br />
+             printf(&quot;2,sayiyi giriniz=&quot;);<br />
+            scanf(&quot;%d&quot;,&amp;sayi_2);<br />
+            sonuc=sayi_1/sayi_2;<br />
+            printf(&quot;islemin sonuc=%.2f&quot;,sonuc);<br />
+<br />
+        }<br />
+        else<br />
+        {<br />
+            printf(&quot;hatalı oparatör secimi \n&quot;);<br />
+        }<br />
+<br />
+    return 0;<br />
+}<br />
+<br />
+<br />
+<div><a href="https://2.bp.blogspot.com/-qXpSqQ5xE1s/W94G8fq-RpI/AAAAAAAABNo/faYPBywfyTAMQpKlFCTOHNVqr4E0aLV-gCLcBGAs/s1600/3.PNG" imageanchor="1"><img src="https://2.bp.blogspot.com/-qXpSqQ5xE1s/W94G8fq-RpI/AAAAAAAABNo/faYPBywfyTAMQpKlFCTOHNVqr4E0aLV-gCLcBGAs/s640/3.PNG" alt="" width="640" height="262" border="0" data-original-height="124" data-original-width="302" /></a></div>
+</body>
+</html>

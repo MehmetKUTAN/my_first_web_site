@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>En büyük ve En kücük rakamı bulan </title>
+</head>
+
+<body>
+<h2>En büyük ve En kücük rakamı bulan <br />
+  C programı</h2>
+<br />
+#include &lt;stdio.h&gt;<br />
+#include &lt;stdlib.h&gt;<br />
+<br />
+int main()<br />
+{<br />
+    int sayi,enb=0,enk=9,rakam;<br />
+    printf(&quot;bir sayi giriniz=&quot;);<br />
+    scanf(&quot;%d&quot;,&amp;sayi);<br />
+    rakam= sayi % 10;<br />
+   while(sayi&gt;1)<br />
+    {<br />
+        rakam= sayi % 10;<br />
+        if(rakam&gt;enb)<br />
+            enb=rakam;<br />
+        if(rakam&lt;enk)<br />
+            enk=rakam;<br />
+    sayi=sayi/10;<br />
+<br />
+    }<br />
+        printf(&quot;en buyuk rakam=%d \n&quot;,enb);<br />
+        printf(&quot;en kucuk rakam=%d \n&quot;,enk);<br />
+    return 0;<br />
+}<br />
+<div><br />
+</div>
+<div><br />
+</div>
+<div><a href="https://4.bp.blogspot.com/-xtVu9v2iUG8/W94EzKiOR3I/AAAAAAAABNc/dqCofacqCxIpRkAW9umJdvVYHK9UgQE-gCLcBGAs/s1600/3.PNG" imageanchor="1"><img src="https://4.bp.blogspot.com/-xtVu9v2iUG8/W94EzKiOR3I/AAAAAAAABNc/dqCofacqCxIpRkAW9umJdvVYHK9UgQE-gCLcBGAs/s640/3.PNG" alt="" width="640" height="126" border="0" data-original-height="70" data-original-width="355" /></a></div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>HESAP MAKİNESİ(Switch-Case)</title>
+</head>
+
+<body>
+<h2>HESAP MAKİNESİ(Switch-Case)</h2>
+#include &lt;stdio.h&gt;<br />
+#include &lt;stdlib.h&gt;<br />
+<br />
+int main()<br />
+{<br />
+    int sayi_1,sayi_2;<br />
+    char opr;<br />
+    float sonuc;<br />
+    printf(&quot;1.sayiyi giriniz=\n&quot;);<br />
+    scanf(&quot;%d&quot;,&amp;sayi_1);<br />
+    printf(&quot;2.sayiyi giriniz=\n&quot;);<br />
+    scanf(&quot;%d&quot;,&amp;sayi_2);<br />
+    printf(&quot;hangi işlemi yapmak istiyorsunuz(+,-,*,/)=&quot;);<br />
+    scanf(&quot; %c&quot;,&amp;opr);<br />
+    switch(opr)<br />
+    {<br />
+    case '+':<br />
+        sonuc=sayi_1+sayi_2;<br />
+        break;<br />
+<br />
+        case '-':<br />
+        sonuc=sayi_1-sayi_2;<br />
+        break;<br />
+<br />
+        case '*':<br />
+        sonuc=sayi_1*sayi_2;<br />
+        break;<br />
+<br />
+        case '/':<br />
+        sonuc=sayi_1/sayi_2;<br />
+        break;<br />
+<br />
+        default:<br />
+            printf(&quot;hatalı oparatör tikladiniz&quot;);<br />
+<br />
+    }<br />
+<br />
+    printf(&quot;işlem sonucu=%3f&quot;,sonuc);<br />
+    return 0;<br />
+}<br />
+<div><br />
+</div>
+<div><a href="https://4.bp.blogspot.com/-fjRhCmG5Uxo/W94HpQ1j8DI/AAAAAAAABNw/hPGcT24eGvob7ogWKjuCOFChUyyxHtQGACLcBGAs/s1600/4.PNG" imageanchor="1"><img src="https://4.bp.blogspot.com/-fjRhCmG5Uxo/W94HpQ1j8DI/AAAAAAAABNw/hPGcT24eGvob7ogWKjuCOFChUyyxHtQGACLcBGAs/s640/4.PNG" alt="" width="640" height="130" border="0" data-original-height="109" data-original-width="525" /></a></div>
+</body>
+</html>

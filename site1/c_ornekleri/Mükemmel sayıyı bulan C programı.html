@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Mükemmel sayıyı bulan C programı</title>
+</head>
+
+<body>
+<h3>Mükemmel sayıyı bulan C programı</h3>
+<div>
+  <div>
+    <div aria-owns="sharing-popup-Blog1-byline-2924358204067246245" data-title="Mükemmel sayıyı bulan C programı">
+      <button aria-controls="sharing-popup-Blog1-byline-2924358204067246245" aria-label="Paylaş" id="sharing-button-Blog1-byline-2924358204067246245" role="button" aria-expanded="false" aria-haspopup="true">
+        <div></div>
+      </button>
+      <div></div>
+    </div>
+  </div>
+</div>
+<div>
+  <div></div>
+</div>
+<div id="post-body-2924358204067246245">
+#include &lt;stdio.h&gt;<br />
+#include &lt;stdlib.h&gt;<br />
+<br />
+int main()<br />
+{<br />
+    int sayi,i,top=0;<br />
+    printf(&quot;Bir sayi giriniz=&quot;);<br />
+    scanf(&quot;%d&quot;,&amp;sayi);<br />
+    for(i=1;i&lt;sayi;i++)<br />
+    {<br />
+        if(sayi%i==0)<br />
+        {<br />
+            top=top+i;<br />
+        }<br />
+    }<br />
+    if(top==sayi)<br />
+    {<br />
+        printf(&quot;mukkemel sayi&quot;);<br />
+    }<br />
+    else<br />
+        printf(&quot;mükemmel sayi degildir&quot;);<br />
+    return 0;<br />
+}<br />
+<br />
+</body>
+</html>
